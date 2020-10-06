@@ -1,0 +1,11 @@
+C:\Users\jenns\source\repos\DungeonAndDragonsCharacterCreator\bin\Debug\DungeonAndDragonsCharacterCreator.exe.config
+C:\Users\jenns\source\repos\DungeonAndDragonsCharacterCreator\bin\Debug\DungeonAndDragonsCharacterCreator.exe
+C:\Users\jenns\source\repos\DungeonAndDragonsCharacterCreator\bin\Debug\DungeonAndDragonsCharacterCreator.pdb
+C:\Users\jenns\source\repos\DungeonAndDragonsCharacterCreator\obj\Debug\DungeonAndDragonsCharacterCreator.csprojAssemblyReference.cache
+C:\Users\jenns\source\repos\DungeonAndDragonsCharacterCreator\obj\Debug\DungeonAndDragonsCharacterCreator.CreateCharacterForm.resources
+C:\Users\jenns\source\repos\DungeonAndDragonsCharacterCreator\obj\Debug\DungeonAndDragonsCharacterCreator.FormMenu.resources
+C:\Users\jenns\source\repos\DungeonAndDragonsCharacterCreator\obj\Debug\DungeonAndDragonsCharacterCreator.Properties.Resources.resources
+C:\Users\jenns\source\repos\DungeonAndDragonsCharacterCreator\obj\Debug\DungeonAndDragonsCharacterCreator.csproj.GenerateResource.cache
+C:\Users\jenns\source\repos\DungeonAndDragonsCharacterCreator\obj\Debug\DungeonAndDragonsCharacterCreator.csproj.CoreCompileInputs.cache
+C:\Users\jenns\source\repos\DungeonAndDragonsCharacterCreator\obj\Debug\DungeonAndDragonsCharacterCreator.exe
+C:\Users\jenns\source\repos\DungeonAndDragonsCharacterCreator\obj\Debug\DungeonAndDragonsCharacterCreator.pdb

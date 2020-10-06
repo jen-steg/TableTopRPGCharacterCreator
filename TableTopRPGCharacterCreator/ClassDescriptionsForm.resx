@@ -1,0 +1,966 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Level.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ProficiencyBonus.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Features.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="CantripsKnown.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="First.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Second.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Third.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Fourth.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Fifth.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Sixth.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Seventh.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Eighth.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Ninth.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="richTextBoxSpellcasting.Text" xml:space="preserve">
+    <value>Preparing and Casting Spells
+The Cleric table shows how many spell slots you have to cast your spells of 1st level and higher.
+To cast one of these spells, you must expend a slot of	 the spell’s level or higher. You regain all
+expended spell slots when you finish a long rest. 
+You prepare the list of cleric spells that are	available for you to cast, choosing from the cleric	
+spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier +
+your cleric level (minimum of one spell). The spells must be of a level for which you have spell
+slots.
+For example, if you are a 3rd-level cleric, you have four	1st-level	and	two	2nd-level	spell	slots.	With	a	
+Wisdom	of	16,	your	list	of	prepared	spells	can	
+include	six	spells	of	1st	or	2nd	level,	in	any	
+combination.	If	you	prepare	the	1st-level	spell	cure	
+wounds,	you	can	cast	it	using	a	1st-level	or	2nd-level	
+slot.	Casting	the	spell	doesn’t	remove	it	from	your	
+list	of	prepared	spells.
+You	can	change	your	list	of	prepared	spells	when	
+you	finish	a	long	rest.	Preparing	a	new	list	of	cleric	
+spells	requires	time	spent	in	prayer	and	meditation:	
+at	least	1	minute	per	spell	level	for	each	spell	on	
+your	list.
+
+Spellcasting Ability
+Wisdom	is	your	spellcasting	ability	for	your	cleric	
+spells.	The	power	of	your	spells	comes	from	your	
+devotion	to	your	deity.	You	use	your	Wisdom	
+whenever	a	cleric	spell	refers	to	your	spellcasting	
+ability.	In	addition,	you	use	your	Wisdom	modifier	
+when	setting	the	saving	throw	DC	for	a	cleric	spell	
+you	cast	and	when	making	an	attack	roll	with	one.
+
+Spell save DC =	8	+	your	proficiency	bonus	+
+your	Wisdom	modifier
+
+Spell attack modifier =	your	proficiency	bonus	+
+your	Wisdom	modifier
+
+Ritual Casting
+You	can	cast	a	cleric	spell	as	a	ritual	if	that	spell	has	
+the	ritual	tag	and	you	have	the	spell	prepared.
+
+Spellcasting Focus
+You	can	use	a	holy	symbol	(see	“Equipment”)	as	a	
+spellcasting	focus	for	your	cleric	spells.
+
+Divine Domain
+Choose	one	domain	related	to	your	deity,	such	as	
+Life.	Each	domain	is	detailed	at	the	end	of	the	class	
+description,	and	each	one	provides	examples	of	gods	
+associated	with	it.	Your	choice	grants	you	domain	
+spells	and	other	features	when	you	choose	it	at	1st	
+level.	It	also	grants	you	additional	ways	to	use	
+
+Channel	Divinity	when	you	gain	that	feature	at	2nd	
+level,	and	additional	benefits	at	6th,	8th,	and	17th	
+levels.
+
+Domain Spells
+Each	domain	has	a	list	of	spells—its	domain	spells—
+that	you	gain	at	the	cleric	levels	noted	in	the	domain	
+description.	Once	you	gain	a	domain	spell,	you	
+always	have	it	prepared,	and	it	doesn’t	count	against	
+the	number	of	spells	you	can	prepare	each	day.
+If	you	have	a	domain	spell	that	doesn’t	appear	on	
+the	cleric	spell	list,	the	spell	is	nonetheless	a	cleric	
+spell	for	you.
+
+Channel Divinity
+At	2nd	level,	you	gain	the	ability	to	channel	divine	
+energy	directly	from	your	deity,	using	that	energy	to	
+fuel	magical	effects.	You	start	with	two	such	effects:	
+Turn	Undead	and	an	effect	determined	by	your	
+domain.	Some	domains	grant	you	additional	effects	
+as	you	advance	in	levels,	as	noted	in	the	domain	
+description.
+When	you	use	your	Channel	Divinity,	you	choose	
+which	effect	to	create.	You	must	then	finish	a	short	
+or	long	rest	to	use	your	Channel	Divinity	again.
+Some	Channel	Divinity	effects	require	saving	
+throws.	When	you	use	such	an	effect	from	this	class,	
+the	DC	equals	your	cleric	spell	save	DC.
+Beginning	at	6th	level,	you	can	use	your	Channel	
+Divinity	twice	between	rests,	and	beginning	at	18th	
+level,	you	can	use	it	three	times	between	rests.	When	
+you	finish	a	short	or	long	rest,	you	regain	your	
+expended	uses.
+
+Channel Divinity: Turn Undead
+As	an	action,	you	present	your	holy	symbol	and	
+speak	a	prayer	censuring	the	undead.	Each	undead	
+that	can	see	or	hear	you	within	30	feet	of	you	must	
+make	a	Wisdom	saving	throw.	If	the	creature	fails	its	
+saving	throw,	it	is	turned	for	1	minute	or	until	it	
+takes	any	damage.
+A	turned	creature	must	spend	its	turns	trying	to	
+move	as	far	away	from	you	as	it	can,	and	it	can’t	
+willingly	move	to	a	space	within	30	feet	of	you.	It	
+also	can’t	take	reactions.	For	its	action,	it	can	use	
+only	the	Dash	action	or	try	to	escape	from	an	effect	
+that	prevents	it	from	moving.	If	there’s	nowhere	to	
+move,	the	creature	can	use	the	Dodge	action.
+Not	for	resale.	Permission	granted	to	print	or	photocopy	this	document	for	personal	use	only. System	Reference	Document	5.1 17
+Ability Score Improvement
+When	you	reach	4th	level,	and	again	at	8th,	12th,	
+16th,	and	19th	level,	you	can	increase	one	ability	
+score	of	your	choice	by	2,	or	you	can	increase	two	
+ability	scores	of	your	choice	by	1.	As	normal,	you	
+can’t	increase	an	ability	score	above	20	using	this	
+feature.
+
+Destroy Undead
+Starting	at	5th	level,	when	an	undead	fails	its	saving	
+throw	against	your	Turn	Undead	feature,	the	
+creature	is	instantly	destroyed	if	its	challenge	rating	
+is	at	or	below	a	certain	threshold,	as	shown	in	the	
+Destroy	Undead	table.
+
+Destroy	Undead
+Cleric Level      Destroys Undead of CR...
+5th                             1/2 or lower
+8th                              1 or lower
+11th                            2 or lower
+14th                            3 or lower
+17th                            4 or lower
+
+Divine Intervention
+Beginning	at	10th	level,	you	can	call	on	your	deity	to	
+intervene	on	your	behalf	when	your	need	is	great.
+Imploring	your	deity’s	aid	requires	you	to	use	
+your	action.	Describe	the	assistance	you	seek,	and	
+roll	percentile	dice.	If	you	roll	a	number	equal	to	or	
+lower	than	your	cleric	level,	your	deity	intervenes.	
+The	GM	chooses	the	nature	of	the	intervention;	the	
+effect	of	any	cleric	spell	or	cleric	domain	spell	would	
+be	appropriate.
+If	your	deity	intervenes,	you	can’t	use	this	feature	
+again	for	7	days.	Otherwise,	you	can	use	it	again	
+after	you	finish	a	long	rest.
+At	20th	level,	your	call	for	intervention	succeeds	
+automatically,	no	roll	required.
+
+Life Domain
+The	Life	domain	focuses	on	the	vibrant	positive	
+energy—one	of	the	fundamental	forces	of	the	
+universe—that	sustains	all	life.	The	gods	of	life	
+promote	vitality	and	health	through	healing	the	sick	
+and	wounded,	caring	for	those	in	need,	and	driving	
+away	the	forces	of	death	and	undeath.	Almost	any	
+non-evil	deity	can	claim	influence	over	this	domain,	
+particularly	agricultural	deities	(such	as	Chauntea,	
+Arawai,	and	Demeter),	sun	gods	(such	as	Lathander,	
+Pelor,	and	Re-Horakhty),	gods	of	healing	or	
+endurance	(such	as	Ilmater,	Mishakal,	Apollo,	and	
+Diancecht),	and	gods	of	home	and	community	(such	
+as	Hestia,	Hathor,	and	Boldrei).
+Life	Domain	Spells
+
+Cleric	Level Spells
+1st bless,	cure	wounds
+3rd lesser	restoration,	spiritual	weapon
+5th beacon	of	hope,	revivify
+7th death	ward,	guardian	of	faith
+9th mass	cure	wounds,	raise	dead
+
+Bonus Proficiency
+When	you	choose	this	domain	at	1st	level,	you	gain	
+proficiency	with	heavy	armor.
+
+Disciple of Life
+Also	starting	at	1st	level,	your	healing	spells	are	
+more	effective.	Whenever	you	use	a	spell	of	1st	level	
+or	higher	to	restore	hit	points	to	a	creature,	the	
+creature	regains	additional	hit	points	equal	to	2	+	
+the	spell’s	level.
+
+Channel Divinity: Preserve Life
+Starting	at	2nd	level,	you	can	use	your	Channel	
+Divinity	to	heal	the	badly	injured.
+As	an	action,	you	present	your	holy	symbol	and	
+evoke	healing	energy	that	can	restore	a	number	of	
+hit	points	equal	to	five	times	your	cleric	level.	
+Choose	any	creatures	within	30	feet	of	you,	and	
+divide	those	hit	points	among	them.	This	feature	can	
+restore	a	creature	to	no	more	than	half	of	its	hit	
+point	maximum.	You	can’t	use	this	feature	on	an	
+undead	or	a	construct.
+
+Blessed Healer
+Beginning	at	6th	level,	the	healing	spells	you	cast	on	
+others	heal	you	as	well.	When	you	cast	a	spell	of	1st	
+level	or	higher	that	restores	hit	points	to	a	creature	
+other	than	you,	you	regain	hit	points	equal	to	2	+	the	
+spell’s	level.
+
+Divine Strike
+At	8th	level,	you	gain	the	ability	to	infuse	your	
+weapon	strikes	with	divine	energy.	Once	on	each	of	
+your	turns	when	you	hit	a	creature	with	a	weapon	
+attack,	you	can	cause	the	attack	to	deal	an	extra	1d8	
+radiant	damage	to	the	target.	When	you	reach	14th	
+level,	the	extra	damage	increases	to	2d8.
+
+Supreme Healing
+Starting at	17th level, when you would normally roll one or more dice to restore hit points	with	a	spell,	
+you	instead	use	the	highest	number	possible	for	
+Not	for	resale.	Permission	granted	to	print	or	photocopy	this	document	for	personal	use	only. System	Reference	Document	5.1 18
+each	die.	For	example,	instead	of	restoring	2d6	hit	
+points	to	a	creature,	you	restore	12.</value>
+  </data>
+  <data name="richTextBoxCleric.Text" xml:space="preserve">
+    <value>Class Features
+As a cleric, you gain the following class features:
+
+Hit Points
+
+Hit Dice: 1d8 per cleric level.
+
+Hit Points at 1st Level: 8 + your Constitution modifier.
+
+Hit Points at Higher Levels: 1d8	(or 5) + your Constitution modifier
+per cleric level after 1st.
+
+Proficiencies
+
+Armor: Light armor, medium armor, shields
+
+Weapons: Simple weapons
+
+Tools: None
+
+Saving Throws: Wisdom, Charisma
+
+Skills: Choose two from History, Insight, Medicine, Persuasion,
+and Religion.
+
+Equipment
+You start with the following equipment, in	addition to the
+equipment granted by your background:
+
+• (a) a mace or (b) a warhammer (if proficient)
+• (a) scale	mail, (b) leather armor, or (c) chain mail (if proficient)
+• (a) a light crossbow and 20 bolts or (b) any simple weapon
+• (a) a priest’s pack or (b) an explorer’s pack
+• A shield and a holy symbol</value>
+  </data>
+  <data name="richTextBoxWizardSpells.Text" xml:space="preserve">
+    <value>Spellcasting 
+As a student of arcane magic, you have a spellbook containing spells that show the first 
+glimmerings of your true power.
+
+Cantrips 
+At 1st level, you know three cantrips of your choice from the wizard spell list. You learn 
+additional wizard cantrips of your choice at higher levels, as shown in the Cantrips Known 
+column of the Wizard table. 
+
+Spellbook 
+At 1st level, you have a spellbook containing six 1st-level wizard spells of your choice. Your 
+spellbook is the repository of the wizard spells you know, except your cantrips, which are 
+fixed in your mind. 
+
+Preparing and Casting Spells 
+The Wizard table shows how many spell slots you have to cast your wizard spells of 1st level 
+and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. 
+You regain all expended spell slots when you finish a long rest. 
+
+You prepare the list of wizard spells that are available for you to cast. To do so, choose a 
+number of wizard spells from your spellbook equal to your Intelligence modifier + your 
+wizard level (minimum of one spell). The spells must be of a level for which you have 
+spell slots. For example, if you’re a 3rd-level wizard, you have four 1st-level and 
+two 2nd-level spell slots.
+ 
+With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level,
+in any combination, chosen from your spellbook. If you prepare the 1st-level spell magic 
+missile, you can cast it using a 1st-level or a 2ndlevel slot. Casting the spell doesn’t remove 
+it from your list of prepared spells.
+
+You can change your list of prepared spells when you finish a long rest. Preparing a new 
+list of wizard spells requires time spent studying your spellbook and memorizing the 
+incantations and gestures you must make to cast the spell: at least 1 minute per spell 
+level for each spell on your list.
+ 
+Spellcasting Ability 
+Intelligence is your spellcasting ability for your wizard spells, since you learn your spells 
+through dedicated study and memorization. You use your Intelligence whenever a spell 
+refers to your spellcasting ability. In addition, you use your Intelligence modifier when 
+setting the saving throw DC for a wizard spell you cast and when making an attack roll 
+with one. 
+
+Spell save DC = 8 + your proficiency bonus + your Intelligence modifier
+ 
+Spell attack modifier = your proficiency bonus + your Intelligence modifier
+ 
+Ritual Casting 
+You can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in 
+your spellbook. You don’t need to have the spell prepared.
+ 
+Spellcasting Focus 
+You can use an arcane focus as a spellcasting focus for your wizard spells.
+
+Learning Spells of 1st Level and Higher 
+Each time you gain a wizard level, you can add two wizard spells of your choice to your 
+spellbook for free. Each of these spells must be of a level for which you have spell slots, 
+as shown on the Wizard table. On your adventures, you might find other spells that you 
+can add to your spellbook (see “Your Spellbook”). 
+
+Arcane Recovery 
+You have learned to regain some of your magical energy by studying your spellbook. 
+Once per day when you finish a short rest, you can choose expended spell slots to 
+recover. The spell slots can have a combined level that is equal to or less than half 
+your wizard level (rounded up), and none of the slots can be 6th level or higher. For 
+example, if you’re a 4th-level wizard, you can recover up to two levels worth of spell 
+slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots.
+
+Your Spellbook 
+The spells that you add to your spellbook as you gain levels reflect the arcane research you 
+conduct on your own, as well as intellectual breakthroughs you have had about the nature 
+of the multiverse. You might find other spells during your adventures. You could discover 
+a spell recorded on a scroll in an evil wizard’s chest, for example, or in a dusty tome in an 
+ancient library. 
+
+Copying a Spell into the Book. 
+When you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is 
+of a spell level you can prepare and if you can spare the time to decipher and copy it.
+ 
+Copying a spell into your spellbook involves reproducing the basic form of the spell, then 
+deciphering the unique system of notation used by the wizard who wrote it. You must 
+practice the spell until you understand the sounds or gestures required, then transcribe it 
+into your spellbook using your own notation. 
+
+For each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents 
+material components you expend as you experiment with the spell to master it, as well as 
+the fine inks you need to record it. Once you have spent this time and money, you can 
+prepare the spell just like your other spells. 
+
+Replacing the Book
+You can copy a spell from your own spellbook into another book—for example, if you want 
+to make a backup copy of your spellbook. This is just like copying a new spell into your 
+spellbook, but faster and easier, since you understand your own notation and already know 
+how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied 
+spell. If you lose your spellbook, you can use the same procedure to transcribe the spells 
+that you have prepared into a new spellbook. Filling out the remainder of your spellbook 
+requires you to find new spells to do so, as normal. For this reason, many wizards keep 
+backup spellbooks in a safe place. 
+
+The Book’s Appearance
+Your spellbook is a unique compilation of spells, with its own decorative flourishes and 
+margin notes. It might be a plain, functional leather volume that you received as a gift 
+from your master, a finely bound gilt-edged tome you found in an ancient library, or even 
+a loose collection of notes scrounged together after you lost your previous spellbook in a 
+mishap.
+
+Arcane Tradition 
+When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic 
+through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, 
+Illusion, Necromancy, or Transmutation. The school of Evocation is detailed at the end of 
+the class description. 
+Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.
+ 
+Ability Score Improvement 
+When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one 
+ability score of your choice by 2, or you can increase two ability scores of your choice by 1. 
+As normal, you can’t increase an ability score above 20 using this feature.
+ 
+Spell Mastery 
+At 18th level, you have achieved such mastery over certain spells that you can cast them 
+at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your 
+spellbook. You can cast those spells at their lowest level without expending a spell slot 
+when you have them prepared. If you want to cast either spell at a higher level, you must 
+expend a spell slot as normal. By spending 8 hours in study, you can exchange one or 
+both of the spells you chose for different spells of the same levels. 
+
+Signature Spells 
+When you reach 20th level, you gain mastery over two powerful spells and can cast them 
+with little effort. Choose two 3rd-level wizard spells in your spellbook as your signature 
+spells. You always have these spells prepared, they don’t count against the number of 
+spells you have prepared, and you can cast each of them once at 3rd level without 
+expending a spell slot. When you do so, you can’t do so again until you finish a short or 
+long rest. If you want to cast either spell at a higher level, you must expend a spell slot as 
+normal. 
+
+Arcane Traditions 
+The study of wizardry is ancient, stretching back to the earliest mortal discoveries of magic. 
+It is firmly established in the worlds of D&amp;D, with various traditions dedicated to its complex 
+study. The most common arcane traditions in the multiverse revolve around the schools of 
+magic. 
+Wizards through the ages have cataloged thousands of spells, grouping them into 
+eight categories called schools. In some places, these traditions are literally schools. 
+Elsewhere, they are more like academic departments, with rival faculties competing for 
+students and funding. Even wizards who train apprentices in the solitude of their own 
+towers use the division of magic into schools as a learning device, since the spells of each 
+school require mastery of different techniques.
+
+School of Evocation 
+You focus your study on magic that creates powerful elemental effects such as bitter cold, 
+searing flame, rolling thunder, crackling lightning, and burning acid. Some evokers find 
+employment in military forces, serving as artillery to blast enemy armies from afar. Others 
+use their spectacular power to protect the weak, while some seek their own gain as bandits, 
+adventurers, or aspiring tyrants. 
+
+Evocation Savant 
+Beginning when you select this school at 2nd level, the gold and time you must spend to 
+copy an evocation spell into your spellbook is halved.
+ 
+Sculpt Spells 
+Beginning at 2nd level, you can create pockets of relative safety within the effects of your 
+evocation spells. When you cast an evocation spell that affects other creatures that you can 
+see, you can choose a number of them equal to 1 + the spell’s level. The chosen creatures 
+automatically succeed on their saving throws against the spell, and they take no damage if 
+they would normally take half damage on a successful save. 
+
+Potent Cantrip 
+Starting at 6th level, your damaging cantrips affect even creatures that avoid the brunt of the 
+effect. When a creature succeeds on a saving throw against your cantrip, the creature takes 
+half the cantrip’s damage (if any) but suffers no additional effect from the cantrip.
+ 
+Empowered Evocation 
+Beginning at 10th level, you can add your Intelligence modifier to one damage roll of any 
+wizard evocation spell you cast.
+
+Overchannel 
+Starting at 14th level, you can increase the power of your simpler spells. When you cast a 
+wizard spell of 1st through 5th level that deals damage, you can deal maximum damage 
+with that spell. The first time you do so, you suffer no adverse effect. If you use this feature 
+again before you finish a long rest, you take 2d12 necrotic damage for each level of the spell, 
+immediately after you cast it. Each time you use this feature again before finishing a long 
+rest, the necrotic damage per spell level increases by 1d12. This damage ignores resistance 
+and immunity.</value>
+  </data>
+  <data name="richTextBoxWizardClass.Text" xml:space="preserve">
+    <value>Class Features 
+As a wizard, you gain the following class features.
+ 
+Hit Points Hit Dice: 1d6 per wizard level.
+ 
+Hit Points at 1st Level: 6 + your Constitution modifier.
+ 
+Hit Points at Higher Levels: 1d6 (or 4) + your Constitution modifier per wizard level after 1st.
+ 
+Proficiencies 
+Armor: None
+ 
+Weapons: Daggers, darts, slings, quarterstaffs, light crossbows
+ 
+Tools: None
+ 
+Saving Throws: Intelligence, Wisdom
+ 
+Skills: Choose two from Arcana, History, Insight, Investigation, Medicine, and Religion
+ 
+Equipment 
+You start with the following equipment, in addition to the equipment granted by your 
+background: 
+
+• (a) a quarterstaff or (b) a dagger 
+• (a) a component pouch or (b) an arcane focus 
+• (a) a scholar’s pack or (b) an explorer’s pack 
+• A spellbook</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn9.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn10.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn11.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn12.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn13.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="richTextBoxFighter.Text" xml:space="preserve">
+    <value>Class Features 
+As a fighter, you gain the following class features.
+ 
+Hit Points Hit Dice: 1d10 per fighter level.
+ 
+Hit Points at 1st Level: 10 + your Constitution modifier.
+ 
+Hit Points at Higher Levels: 1d10 (or 6) + your Constitution modifier per fighter level 
+after 1st.
+ 
+Proficiencies 
+
+Armor: All armor, shields Weapons: Simple weapons, martial weapons 
+
+Tools: None 
+
+Saving Throws: Strength, Constitution
+ 
+Skills: Choose two skills from Acrobatics, Animal Handling, Athletics, History, 
+Insight, Intimidation, Perception, and Survival
+ 
+Equipment 
+You start with the following equipment, in addition to the equipment granted by your 
+background: 
+
+• (a) chain mail or (b) leather armor, longbow, and 20 arrows 
+• (a) a martial weapon and a shield or (b) two martial weapons 
+• (a) a light crossbow and 20 bolts or (b) two handaxes 
+• (a) a dungeoneer’s pack or (b) an explorer’s pack 
+
+Fighting Style 
+You adopt a particular style of fighting as your specialty. Choose one of the following 
+options. You can’t take a Fighting Style option more than once, even if you later get to 
+choose again. 
+
+Archery 
+You gain a +2 bonus to attack rolls you make with ranged weapons.
+ 
+Defense 
+While you are wearing armor, you gain a +1 bonus to AC. 
+
+Dueling 
+When you are wielding a melee weapon in one hand and no other weapons, you gain 
+a +2 bonus to damage rolls with that weapon. 
+
+Great Weapon Fighting 
+When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon 
+that you are wielding with two hands, you can reroll the die and must use the new roll, 
+even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile 
+property for you to gain this benefit. 
+
+Protection 
+When a creature you can see attacks a target other than you that is within 5 feet of you, 
+you can use your reaction to impose disadvantage on the attack roll. You must be 
+wielding a shield.
+
+Two-Weapon Fighting 
+When you engage in two-weapon fighting, you can add your ability modifier to the 
+damage of the second attack. 
+
+Second Wind 
+You have a limited well of stamina that you can draw on to protect yourself from harm. 
+On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter 
+level. Once you use this feature, you must finish a short or long rest before you can use it 
+again. 
+
+Action Surge 
+Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On 
+your turn, you can take one additional action. Once you use this feature, you must finish 
+a short or long rest before you can use it again. Starting at 17th level, you can use it twice 
+before a rest, but only once on the same turn. 
+
+Martial Archetype 
+At 3rd level, you choose an archetype that you strive to emulate in your combat styles and 
+techniques. The Champion archetype is detailed at the end of the class description. Your 
+archetype grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level. 
+
+Ability Score Improvement 
+When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can 
+increase one ability score of your choice by 2, or you can increase two ability scores of your 
+choice by 1. As normal, you can’t increase an ability score above 20 using this feature. 
+
+Extra Attack 
+Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack 
+action on your turn. The number of attacks increases to three when you reach 11th level in 
+this class and to four when you reach 20th level in this class. Indomitable Beginning at 9th 
+level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, 
+and you can’t use this feature again until you finish a long rest. You can use this feature 
+twice between long rests starting at 13th level and three times between long rests starting 
+at 17th level.
+
+Martial Archetypes 
+Different fighters choose different approaches to perfecting their fighting prowess. The 
+martial archetype you choose to emulate reflects your approach. 
+
+Champion 
+The archetypal Champion focuses on the development of raw physical power honed to 
+deadly perfection. Those who model themselves on this archetype combine rigorous 
+training with physical excellence to deal devastating blows. 
+
+Improved Critical 
+Beginning when you choose this archetype at 3rd level, your weapon attacks score a 
+critical hit on a roll of 19 or 20. 
+
+Remarkable Athlete 
+Starting at 7th level, you can add half your proficiency bonus (round up) to any Strength, 
+Dexterity, or Constitution check you make that doesn’t already use your proficiency 
+bonus. In addition, when you make a running long jump, the distance you can cover 
+increases by a number of feet equal to your Strength modifier. 
+
+Additional Fighting Style 
+At 10th level, you can choose a second option from the Fighting Style class feature. 
+
+Superior Critical 
+Starting at 15th level, your weapon attacks score a critical hit on a roll of 18–20.
+ 
+Survivor 
+At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your 
+turns, you regain hit points equal to 5 + your Constitution modifier if you have no more 
+than half of your hit points left. You don’t gain this benefit if you have 0 hit points.</value>
+  </data>
+  <data name="richTextBoxRogue.Text" xml:space="preserve">
+    <value>Class Features 
+As a rogue, you have the following class features. 
+
+Hit Points Hit Dice: 1d8 per rogue level.
+ 
+Hit Points at 1st Level: 8 + your Constitution modifier. 
+
+Hit Points at Higher Levels: 1d8 (or 5) + your Constitution modifier per rogue level after 1st.
+ 
+Proficiencies 
+Armor: Light armor 
+
+Weapons: Simple weapons, hand crossbows, longswords, rapiers, shortswords 
+
+Tools: Thieves’ tools 
+
+Saving Throws: Dexterity, Intelligence 
+
+Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation,
+ Investigation, Perception, Performance, Persuasion, Sleight of Hand, and Stealth
+ 
+Equipment 
+You start with the following equipment, in addition to the equipment granted by 
+your background: 
+• (a) a rapier or (b) a shortsword 
+• (a) a shortbow and quiver of 20 arrows or (b) a shortsword 
+• (a) a burglar’s pack, (b) a dungeoneer’s pack, or (c) an explorer’s pack 
+• Leather armor, two daggers, and thieves’ tools</value>
+  </data>
+  <metadata name="LevelRogue.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ProficiencyBonusRogue.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="SneakAttack.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="FeaturesRogue.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="richTextBoxRogueFeatures.Text" xml:space="preserve">
+    <value>At 6th level, you can choose two more of your proficiencies (in skills or with thieves’ tools) to 
+gain this benefit. 
+
+Sneak Attack 
+Beginning at 1st level, you know how to strike subtly and exploit a foe’s distraction. 
+Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack
+if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon. 
+You don’t need advantage on the attack roll if another enemy of the target is within 5 feet of 
+it, that enemy isn’t incapacitated, and you don’t have disadvantage on the attack roll. The 
+amount of the extra damage increases as you gain levels in this class, as shown in the Sneak 
+Attack column of the Rogue table. 
+
+Thieves’ Cant 
+During your rogue training you learned thieves’ cant, a secret mix of dialect, jargon, and 
+code that allows you to hide messages in seemingly normal conversation. Only another 
+creature that knows thieves’ cant understands such messages. It takes four times longer 
+to convey such a message than it does to speak the same idea plainly. In addition, you 
+understand a set of secret signs and symbols used to convey short, simple messages, such
+as whether an area is dangerous or the territory of a thieves’ guild, whether loot is nearby, 
+or whether the people in an area are easy marks or will provide a safe house for thieves on 
+the run. 
+
+Cunning Action 
+Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. 
+You can take a bonus action on each of your turns in combat. This action can be used only
+to take the Dash, Disengage, or Hide action. 
+
+Roguish Archetype 
+At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities.
+The Thief archetype is detailed here; see the Player’s Handbook for other archetypes. Your 
+choice grants you features at 3rd level and then again at 9th, 13th, and 17th level. 
+
+Ability Score Improvement 
+When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase
+ one ability score of your choice by 2, or you can increase two ability scores of your choice 
+by 1. As normal, you can’t increase an ability score above 20 using this feature. 
+
+Uncanny Dodge 
+Starting at 5th level, when an attacker that you can see hits you with an attack, you can use 
+your reaction to halve the attack’s damage against you.
+ 
+Evasion 
+Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as
+ a red dragon’s fiery breath or an ice storm spell. When you are subjected to an effect that
+ allows you to make a Dexterity saving throw to take only half damage, you instead take no
+ damage if you succeed on the saving throw, and only half damage if you fail.
+ 
+Reliable Talent 
+By 11th level, you have refined your chosen skills until they approach perfection. Whenever
+ you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll
+ of 9 or lower as a 10.
+ 
+Blindsense 
+Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or
+ invisible creature within 10 feet of you.
+ 
+Slippery Mind 
+By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom 
+saving throws.
+ 
+Elusive 
+Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against
+ you. No attack roll has advantage against you while you aren’t incapacitated.
+
+Stroke of Luck 
+At 20th level, you have an uncanny knack for succeeding when you need to. If your attack 
+misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an 
+ability check, you can treat the d20 roll as a 20. Once you use this feature, you can’t use it 
+again until you finish a short or long rest. 
+
+Roguish Archetypes 
+Rogues have many features in common, including their emphasis on perfecting their skills, 
+their precise and deadly approach to combat, and their increasingly quick reflexes. But 
+different rogues steer those talents in varying directions, embodied by the rogue archetypes. 
+Your choice of archetype is a reflection of your focus—not necessarily an indication of your 
+chosen profession, but a description of your preferred techniques. 
+
+Thief 
+You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals 
+typically follow this archetype, but so do rogues who prefer to think of themselves as 
+professional treasure seekers, explorers, delvers, and investigators. In addition to improving
+ your agility and stealth, you learn skills useful for delving into ancient ruins, reading 
+unfamiliar languages, and using magic items you normally couldn’t employ. 
+
+Fast Hands 
+Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make 
+a Dexterity (Sleight of Hand) check, use your thieves’ tools to disarm a trap or open a lock, 
+or take the Use an Object action. 
+
+Second-Story Work 
+When you choose this archetype at 3rd level, you gain the ability to climb faster than normal; 
+climbing no longer costs you extra movement. In addition, when you make a running jump,
+ the distance you cover increases by a number of feet equal to your Dexterity modifier.
+ 
+Supreme Sneak 
+Starting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more 
+than half your speed on the same turn. 
+
+Use Magic Device 
+By 13th level, you have learned enough about the workings of magic that you can improvise 
+the use of items even when they are not intended for you. You ignore all class, race, and level 
+requirements on the use of magic items. 
+
+Thief’s Reflexes 
+When you reach 17th level, you have become adept at laying ambushes and quickly escaping
+danger. You can take two turns during the first round of any combat. You take your first turn 
+at your normal.</value>
+  </data>
+  <metadata name="LevelRogue.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ProficiencyBonusRogue.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="SneakAttack.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="FeaturesRogue.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABMLAAATCwAAAAAAAAAA
+        AAAAAAAAEBAQABgYGAAICAgAAAAAABcXFwATExMAExMTAP///wD///8A////AP///wD///8A////AP//
+        /wD///8AGRkZABMTEwAODg4AQ0JEFgAAAAAEBAT/AAAA/wAAAP8AAAD/AAAA/wAAAP8LCwsAEBAQABcX
+        FwAVFRUA////ABYWFgAEBAQAIyMj/xQPEP8eHBz/Ly8v/wAAAP8BAQH/AQEB/xgYGP8YGBj/NDQ0/wkJ
+        CQAAAAAAEhISAP///wAAAAAAAAAAAIKBhf8AAAD/EBAQ/yUlJf80MjL/AAAA/wAAAP8SEBD/HR0d/wAA
+        AP8QEBD/CwsLAA8PDwD///8AGBgYABoaGgAGBgb/gYCC/yAgIP8kIyX/CwoM/zo6Ov8REBT/AAAA/wwK
+        Cv8cHBz/JyUk/w4ND/8MDAwA////ABMTEwAWFhYAkZKW/wAAAP8AAAD/FRM3/x4cOv8rKyv/IyEh/yEj
+        JP8LBwb/Ly8v/xwYF/8MDAz/DQ0N/////wACAgIAFRUV/xQUFP8AAQD/AAAA/wAACP8AAET/DhGX/xwc
+        HP8DAwP/HR0d/0pKSv8MDAz/DAwM/wAAAAD///8AAAAAAAAAAP8QEBD/Gxsb/wxK2P8LCyP/AABA/wAA
+        Wf8PDw//QEBA/wwMDP8sLCz/FBQU/wUBAP8LCwsA////AAEBAQAGBgb/QkJC/zU1Nf8YFxn/Kysr/y4u
+        Lv8AAAD/VFRU/wQDBf8kJCT/NTU1/xISEv8DAQH/AAAAAP///wAAAAAAPT09/woKCv90dHT/pKSk/xUV
+        Ff8jRnL/Y2Nj/yUkJv8nJyf/FxcX/ygoKP8TExP/DAwM/wwMDAD///8AAgICALCwsP8AAAD/VVZU/6Wl
+        pf9+fn7/RERE/wEWMf88PDz/JCQk/wwMDP8NEQz/AgAA/15eXv8CAgIA////AAgICAAAAAAAAQEBAAAA
+        AP8AAAD/zs7O/1lZWf8rKyv/DQ0N/xAQEP8cGxf/bm9t/2NlZf8oKCj/AAAAAP///wAAAAAAAAAAAAAA
+        AAAAAAAAAAAA/1RUVP82ODj/AwMD/4eJif85OTn/BwwK/xgYGP8AAAAAAAAAAAAAAAD///8AAAAAAAAA
+        AAAAAAAAAAAAAAICAgAAAAAAJCQkvC0tLf8PDhD/z8/P/0dIRv8AAAAAAAAAAAAAAAAAAAAA////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8AAAAAAAAAAAAAAAAAY2Nj/wAAAAAAAAAAAAAAAP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A//8AAOgfAADADwAAwAcAAMADAADAAQAAgAMAAIADAACAAwAAgAMAAIADAADgAwAA8A8AAPwf
+        AAD/7wAA//8AAA==
+</value>
+  </data>
+</root>

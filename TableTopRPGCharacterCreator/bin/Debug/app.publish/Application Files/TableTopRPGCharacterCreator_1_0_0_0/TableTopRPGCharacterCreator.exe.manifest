@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TableTopRPGCharacterCreator.exe" version="1.0.0.0" publicKeyToken="45decaafeef237c3" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TableTopRPGCharacterCreator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TableTopRPGCharacterCreator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TableTopRPGCharacterCreator.exe" size="936928">
+      <assemblyIdentity name="TableTopRPGCharacterCreator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2LfhXBYcIpS4qQEIxqB5rKs+n0DB4LWg7ZvuCyBMpUA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="TableTopRPGCharacterCreator.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-4RM81BG\jenns" issuerKeyHash="14df6382b72462a4729324c9353ec1778d7570d3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>m2xWLom7vHKkPx/Cu//QMTCLwwvn0s9efNM3AEMcGi0=</DigestValue></Reference></SignedInfo><SignatureValue>UKn1Ww5UoE0Nxx9lcbWLMT1nZyYqQ1RPIr39kNpJJiM81JQUj4Fm23v3Q+iwE42JPOK99Iznq+couE58+ullfD7AMfwktpGqAhIKhCMT2dNlWXe0OomAjp5O8g3MN9uBD5mKvQBgAcvkBrq9Luc6NXKd2JvQ/2wdkxy10tPN8V0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3mwH3KwL9MS6NMMuwd87dr/tBhaozoqqzHggrvNUueGyBDPm+e/FsgX2iWnvaVcEIRlVWxwBg1e37ypmqMN+rauUrX5OZsf+an0BG9yift1F9OfB3d8V4Fay5yeHYXlyUjd8te4VrWPQ8yM9k5QmE6xSZ/CBnGQa2Eir4Ge6D1E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2d1a1c430037d37c5ecfd2e70bc38b3031d0ffbbc21f3fa472bcbb892e566c9b" Description="" Url=""><as:assemblyIdentity name="TableTopRPGCharacterCreator.exe" version="1.0.0.0" publicKeyToken="45decaafeef237c3" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-4RM81BG\jenns</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>S5tJTKl+LAyRgvh4OCDE/MNISEYN+hbiMbITQF20H7o=</DigestValue></Reference></SignedInfo><SignatureValue>gb7ohjejldBFn3MOVROvZ/h/lr30NwspaehviliQXYZkrWhr1d3eHKKscNo+7pl1Q24a6vTXl6TeCh4+PzaofYffPXn+n9BNk67CMy0G24ZfYtUpD9ydO8hMJsDqW5V6I1ehhrl+SEDWNjU4LXaR4/nF7su6Q7LOeSTuIxy4UDs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3mwH3KwL9MS6NMMuwd87dr/tBhaozoqqzHggrvNUueGyBDPm+e/FsgX2iWnvaVcEIRlVWxwBg1e37ypmqMN+rauUrX5OZsf+an0BG9yift1F9OfB3d8V4Fay5yeHYXlyUjd8te4VrWPQ8yM9k5QmE6xSZ/CBnGQa2Eir4Ge6D1E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQbDPmXGyQnK9Pv45+/CN5qTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADQAUgBNADgAMQBCAEcAXABqAGUAbgBuAHMwHhcNMjAwNTA2MTcyNTA1WhcNMjEwNTA2MjMyNTA1WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADQAUgBNADgAMQBCAEcAXABqAGUAbgBuAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAN5sB9ysC/TEujTDLsHfO3a/7QYWqM6Kqsx4IK7zVLnhsgQz5vnvxbIF9olp72lXBCEZVVscAYNXt+8qZqjDfq2rlK1+TmbH/mp9ARvcon7dRfTnwd3fFeBWsucnh2F5clI3fLXuFa1j0PMjPZOUJhOsUmfwgZxkGthIq+Bnug9RAgMBAAEwDQYJKoZIhvcNAQELBQADgYEACUVRmTlrXAhSsgbg0yk92EtAWzNOXTiK/2bTAQgo2OFFXKTHjr2fNwXc6aiyGFtzEtz8IzM0DP9ZFowt+DYVRrCuxnWAM6os3qfS/4MAN/AXtzdSteRaY3NQ8pMGN/ZiAjcuG8wWcFqgDYUYDc8qy+FASb36XXSvkK3c8pUJLUs=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
